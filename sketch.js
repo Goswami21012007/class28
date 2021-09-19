@@ -68,7 +68,6 @@ function draw(){
 function mouseDragged(){
     Matter.Body.setPosition(bird.body,{x:mouseX,y:mouseY})
 }
-
 function mouseReleased(){
     Slingshot.fly();
 }
